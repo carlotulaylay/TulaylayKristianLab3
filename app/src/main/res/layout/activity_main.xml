@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#188279"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        style="@style/texts"
+        android:layout_width="282dp"
+        android:layout_height="40dp"
+        android:text="@string/location_bonifacio_dr_padre_burgos_st_manila_luzon_1002_philippines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/texts"
+        android:layout_width="281dp"
+        android:layout_height="34dp"
+        android:text="Distance from UST: 4.3 KM"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="408dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:text="back"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:text="next"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/pic"
+        style="@style/pic"
+        android:layout_width="281dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/intramuros"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/qwe"
+        style="@style/qwe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="282dp"
+        tools:text="Intramuros"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
